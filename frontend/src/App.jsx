@@ -44,7 +44,7 @@ function App() {
 
     if (username) {
 
-      const provider = new SocketIOProvider("http://localhost:3000/", "monaco", ydoc, {
+      const provider = new SocketIOProvider("/", "monaco", ydoc, {
         autoConnect: true,
       })
 
